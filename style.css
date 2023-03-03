@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+ 
+body {
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+
+}
+  
+
+.carroussel {
+    margin: 0 auto;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #8B2766;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px #8B2766;
+}
+
+.orga {
+    background-image: url(/images/organize.png);
+    background-position: -100px;
+}
+
+.story {
+    background-image: url(/images/storytelling.png);
+    background-position: -100px;
+}
+
+.market {
+    background-image: url(/images/marketing.png);
+    background-position: -200px;
+}
+
+.campaign {
+    background-image: url(/images/campagne.png);
+    background-position: -150px;
+}
+
+.strat {
+    background-image: url(/images/strategie.png);
+    background-position: -150px;
+}
+
+section.carroussel article {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    transition: all .5s;
+}
+
+section.carroussel article:hover {
+    width: 400px;
+}
