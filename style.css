@@ -21,27 +21,27 @@ body {
 }
 
 .orga {
-    background-image: url(/images/organize.png);
+    background-image: url(./images/organize.png);
     background-position: -100px;
 }
 
 .story {
-    background-image: url(/images/storytelling.png);
+    background-image: url(./images/storytelling.png);
     background-position: -100px;
 }
 
 .market {
-    background-image: url(/images/marketing.png);
+    background-image: url(./images/marketing.png);
     background-position: -200px;
 }
 
 .campaign {
-    background-image: url(/images/campagne.png);
+    background-image: url(./images/campagne.png);
     background-position: -150px;
 }
 
 .strat {
-    background-image: url(/images/strategie.png);
+    background-image: url(./images/strategie.png);
     background-position: -150px;
 }
 
